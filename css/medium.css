@@ -1,0 +1,579 @@
+
+section {
+    height: auto;
+    padding-bottom: 10%;
+}
+
+#message, #solution {
+    padding: 2% 2% 10% 2%;
+}
+
+#message .center-content-table, #solution .center-content-table {
+    height: auto;
+}
+
+
+#intro, #domination, #complex, #distress, #privilege, #workers, .full-quote, #project {
+    height: 100vh; 
+}
+
+.tablet-hide {
+    display: none; 
+}
+
+#intro {
+    background-position: 90% 50%;
+}
+
+#logo {
+    width: 20%;
+    height :auto;
+    margin-bottom: 5%;
+}
+
+.intro-quote {
+    font-size: 1.35em;
+    margin-bottom: 4%;
+	text-shadow: 3px 3px #000000;
+}
+
+.intro-text-box {
+    width: 80%;
+    display: block;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    font-size: 1.2em;
+	text-shadow: 3px 3px #000000;
+}
+
+.needtoknow-container {
+    padding: 1.8em 0.9em;
+}
+
+.default-navbar {
+    display: none;
+}
+
+.slideout-menu {
+    display: block;
+}
+
+#message {
+    padding-top: 8%; 
+}
+
+.message-snippet {
+    width: 78%; 
+    margin: 10% 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message-snippet:first-child {
+    margin-top: 2%;
+}
+
+.message-snippet:last-child {
+    margin-right: auto;
+}
+
+.message-snippet-heading {
+    margin: 0 0 5% 0;
+}
+
+.section-header {
+    font-size: 3.5em;
+    margin-bottom: 6%;
+}
+
+.section-text {
+    font-size: 1.25em;
+    width: 85%;
+}
+
+#facts {
+    padding-top: 4%;
+}
+
+.stat {
+    display: inline-table;
+    padding: 0 3% 3%; 
+    vertical-align: top;
+    width: 40%;
+}
+
+.inner-quote {
+    font-size: 1.7em;
+    margin-bottom: 4%;
+    width: 90%;
+}
+
+#tesla .inner-quote {
+    width: 90%;
+}
+
+.project-headline {
+    font-size: 2.5em;
+    width: 90%;
+    color: #fff;
+}
+
+.project-text {
+    width: 80%;
+}
+
+.social {
+    padding-top: 2%;
+    width: 60%; 
+}
+
+.bottom-text {
+    padding-top: 4%;
+}
+
+#aboutme {
+    background-position: 30% 0%;
+    height: 100vh;
+    position: absolute;
+}
+
+.aboutme-content {
+    display: block;
+    margin-left: 0;
+    width: 46%;
+    text-align: left;
+    margin-left: 45%;
+}
+
+.aboutme-heading {
+    font-size: 2em; 
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.aboutme-title {
+    font-size: 1.2em;
+    font-weight: 100;
+    padding-top: 8%;
+}
+
+.aboutme-text {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #2890dd;
+}
+
+.connect-with-me {
+    display: block;
+    padding-top: 2%;
+}
+
+.return-link {
+    display: block;
+    padding-top: 4%;
+    text-decoration: none; 
+}
+
+.return {
+    width: 32px; 
+    height: auto;
+    padding-right: 2%;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 4px
+}
+
+@media only screen and (orientation: landscape) {
+    
+    #logo {
+        width: 14%;
+        height: auto;
+    }
+    
+    .intro-text-box {
+        width: 70%;
+    }
+    
+    .message-snippet-text {
+        font-size: 1.2em;
+    }
+    
+    .section-header {
+        font-size: 4.5em;
+    }
+    
+    .project-headline {
+        font-size: 2.3em;
+    }
+    
+    .project-text {
+        width: 60%;
+        font-size: 1.1em;
+    }
+    
+    .message-snippet {
+        margin: 7% auto 0 auto;
+        width: 80%;
+    }
+}
+
+
+@media only screen 
+    screen and (-webkit-min-device-pixel-ratio : 2 ) 
+    and (max-device-width: 800px) {
+    
+    .mobile-hide {
+        display: none;
+    }
+        
+    #logo {
+        width: 14%;
+        height :auto;
+        margin-bottom: 3%;
+        margin-top: 0;
+    }
+    
+    .intro-quote {
+        font-size: 1.7em;
+		text-shadow: 3px 3px #000000;
+    }
+        
+    .intro-quote-author {
+        font-size: 1em;
+		text-shadow: 1px 1px #000000;
+    }    
+    
+    .intro-text-box {
+        width: 95%;
+        display: block;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-size: 0.97em;
+        font-weight: 100;
+    }
+        
+    a#needtoknow {
+        font-weight: normal;
+    }
+        
+    .message-snippet {
+        width: 90%;
+    }
+    
+    .message-snippet-heading {
+        margin: 0 0 5% 0;
+    }
+    
+    .message-snippet-text {
+        font-weight: 100;
+    }
+    
+    .section-header {
+        font-size: 2.5em;
+        margin-bottom: 5%;
+    }
+        
+    .section-text {
+        font-size: 1.1em;
+        font-weight: 100;
+    }
+    
+    .stat {
+        display: inline-table;
+        padding: 0 3% 3%; 
+        vertical-align: top;
+        width: 40%;
+    }
+    
+    .stat-image {
+        width: 30%;
+        height: auto;
+    }
+    
+    .stat .cow {
+        width: 35%; 
+        height: auto;
+    }
+    
+    .stat .whale {
+        width: 35%; 
+        height: auto;
+    }
+    
+    .inner-quote {
+        font-size: 1.23em;
+        margin-bottom: 4%;
+    }
+    
+    #gandhi .inner-quote {
+        font-size: 1.3em;
+    }
+
+    #shaw .inner-quote {
+        font-size: 1.3em;
+    }
+    
+    #goodall .inner-quote, #schweitzer .inner-quote, #shaw .inner-quote {
+        font-size: 1.19em;
+    }
+    
+    #project {
+        padding-top: 10%;
+    }
+    
+    .project-headline {
+        width: 90%;
+        font-size: 1.6em;
+    }
+        
+    .project-text {
+        width: 80%;
+        font-size: 0.97em;
+        font-weight: 100;
+    }
+
+    .social {
+        padding-top: 2%;
+        width: 100%; 
+    }
+
+    .social ul li {
+        margin-right: 3%; 
+    }
+
+    .bottom-text {
+        padding-top: 3%;
+    }
+    
+    #aboutme {
+    background-position: 25% 0;
+    height: auto;
+    overflow: scroll;
+        
+    }
+    
+    #aboutme .center-content-table {
+    height: auto;
+    }
+
+    .aboutme-content {
+        display: block;
+        width: 50%;
+        text-align: left;
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    .aboutme-heading {
+        font-size: 2em; 
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .aboutme-title {
+        font-size: 1.2em;
+        font-weight: 100;
+        padding-top: 8%;
+    }
+
+    .aboutme-text {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid #2890dd;
+    }
+
+    .connect-with-me {
+        display: block;
+        padding-top: 4%;
+    }
+
+    .return-link {
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-decoration: none; 
+    }
+
+    .return {
+        width: 20px; 
+        height: auto;
+        padding-right: 2%;
+        display: inline-block;
+        vertical-align: bottom;
+        padding-top: 4px
+    }
+        
+}
+
+
+ @media only screen and (orientation: landscape) and (-webkit-min-device-pixel-ratio : 2 ) 
+    and (max-device-width: 800px) {
+
+        #logo {
+            width: 15%;
+            height :auto;
+            margin-bottom: 2%;
+            margin-top: 3%;
+        }
+
+        .intro-quote {
+            font-size: 1.4em;
+        }
+
+        .intro-quote-author {
+            font-size: 0.9em;
+        }
+
+        .intro-text-box {
+            width: 80%;
+            display: block;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            font-size: 1em;
+            font-weight: 100;
+        }
+        
+        .needtoknow-container {
+            padding: 1em 0.9em;
+        }
+
+        a#needtoknow {
+            font-size: 0.7em;
+        }
+
+        .message-snippet-heading {
+            font-size: 1.9em; 
+            margin: 0 0 5% 0;
+        }
+        
+        .message-snippet-text {
+            font-size: 1em;
+        }
+
+        .section-header {
+            font-size: 2.4em;
+            margin-bottom: 5%;
+        }
+        
+        .section-text {
+            font-size: 1em;
+        }
+
+        .stat {
+            display: inline-table;
+            padding: 0 3% 3%; 
+            vertical-align: top;
+            width: 40%;
+        }
+
+        .stat-image {
+            width: 30%;
+            height: auto;
+        }
+
+        .stat .cow {
+            width: 35%; 
+            height: auto;
+        }
+
+        .stat .whale {
+            width: 35%; 
+            height: auto;
+        }
+        
+        .inner-quote, #tesla .inner-quote {
+            font-size: 1.2em;
+            width: 70%;
+        }
+        
+        #shaw .inner-quote {
+            font-size: 1.3em;
+        }
+
+        .project-headline {
+            font-size: 2em;
+        }
+
+        .project-text {
+            width: 80%;
+            font-size: 0.97em;
+        }
+        
+        .project-text .mobile-hide {
+            display: none;
+        }
+
+        .social {
+            padding-top: 2%;
+            width: 100%; 
+        }
+
+        .social ul li {
+            margin-right: 3%; 
+        }
+
+        .bottom-text {
+            padding-top: 3%;
+        }
+
+        #aboutme {
+        background-position: 25% 0;
+        height: auto;
+        overflow: scroll;
+
+        }
+
+        #aboutme .center-content-table {
+        height: auto;
+        }
+
+        .aboutme-content {
+            display: block;
+            width: 50%;
+            text-align: left;
+            margin-left: 45%;
+            margin-top: 10%;
+        }
+
+        .aboutme-heading {
+            font-size: 2em; 
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .aboutme-title {
+            font-size: 1.2em;
+            font-weight: 100;
+            padding-top: 8%;
+        }
+
+        .aboutme-text {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            border-bottom: 1px solid #2890dd;
+        }
+
+        .connect-with-me {
+            display: block;
+            padding-top: 4%;
+        }
+
+        .return-link {
+            display: block;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            text-decoration: none; 
+        }
+
+        .return {
+            width: 20px; 
+            height: auto;
+            padding-right: 2%;
+            display: inline-block;
+            vertical-align: bottom;
+            padding-top: 4px
+        }
+
+        
+    }

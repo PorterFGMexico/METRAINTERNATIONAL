@@ -1,0 +1,73 @@
+.intro-quote {
+    font-size: 1.8em; 
+		margin-bottom:0.5%;
+		margin-top:0%;
+		text-shadow: 3px 3px #000000;
+}
+
+.intro-quote-author {
+	font-size: 1.9em;
+	margin-bottom:0%; 
+		text-shadow: 1px 1px #000000;
+    }
+a#needtoknow {
+    font-size: 1.1em;
+}
+
+a#needtoknow2 {
+    font-size: 1.1em;
+}
+
+.inner-nav a, .inner-nav-white a {
+    font-size: 1em;
+}
+
+.inner-logo {
+    width: 20%;
+}
+
+.intro-text-box {
+    font-size: 1.7em;
+	width: 55%;
+	text-shadow: 3px 3px #000000;
+}
+
+.message-snippet-text {
+    font-size: 1.35em;
+}
+
+.section-header {
+    font-size: 6em;
+}
+
+.section-text {
+    font-size: 1.7em; 
+    width: 60%;
+}
+
+.stat-text {
+    font-size: 1em;
+}
+
+.inner-quote {
+    font-size: 2.5em;
+}
+
+.project-headline {
+    font-size: 3.5em;
+}
+
+.project-text {
+    font-size: 1.4em;
+    line-height: 125%;
+    width: 45%;   
+}
+
+.copyright, .credit {
+    font-size: 0.85em;
+}
+
+.aboutme-text {
+    font-size: 1.3em;
+    line-height: 125%;
+}

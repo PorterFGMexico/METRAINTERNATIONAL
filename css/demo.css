@@ -1,0 +1,30 @@
+﻿/*DEMO STYLES*/
+
+body {
+	background:url(../images/bg.jpg); 
+background-repeat: no-repeat;
+background-position:center;
+background-size:contain;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+img {
+    border: 5px solid #fff;
+    width: 95%;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid #fff;
+}
